@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtro de Contatos</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
+</head>
+<body>
+  <h1>Suba seu Arquivo Excel</h1>
+
+  <input type="file" id="file-input" />
+  <button onclick="processFile()">Processar Arquivo</button>
+
+  <h2>Resultados</h2>
+  <table id="result-table">
+    <thead>
+      <tr>
+        <th>Data e Hora</th>
+        <th>Contatos por Data</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
